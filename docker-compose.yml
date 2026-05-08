@@ -1,0 +1,75 @@
+# =========================================================================
+# Pelxa — Production stack (Blue / Green)
+#
+#   nginx       → public reverse proxy on :80 (and :443 if you add TLS)
+#   pelxa_blue  → app instance "blue"   (internal :3000)
+#   pelxa_green → app instance "green"  (internal :3000)
+#
+# At any time only ONE of blue/green serves traffic. The deploy script
+# (deploy/scripts/deploy.sh) builds the new image, brings the standby
+# color up, waits for /healthz, atomically swaps nginx upstream, then
+# stops the old color. End users see zero downtime.
+# =========================================================================
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: pelxa_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      # - "443:443"   # uncomment after wiring up certs
+    volumes:
+      - ./deploy/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./deploy/nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./deploy/nginx/active:/etc/nginx/active:ro
+      # - ./deploy/nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - pelxa_blue
+    networks:
+      - pelxa_net
+
+  pelxa_blue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pelxa-app:latest
+    container_name: pelxa_blue
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      INSTANCE: blue
+    expose:
+      - "3000"
+    networks:
+      - pelxa_net
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:3000/healthz"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 15s
+
+  pelxa_green:
+    image: pelxa-app:latest
+    container_name: pelxa_green
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      INSTANCE: green
+    expose:
+      - "3000"
+    networks:
+      - pelxa_net
+    profiles: ["green"]   # not started by default — only when `--profile green`
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:3000/healthz"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 15s
+
+networks:
+  pelxa_net:
+    driver: bridge

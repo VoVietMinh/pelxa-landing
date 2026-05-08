@@ -1,0 +1,21 @@
+.git
+.gitignore
+.github
+.DS_Store
+node_modules
+npm-debug.log*
+.env
+.env.*
+*.log
+
+# Dev artifacts
+branding-extracted
+pelxa-branding.zip
+
+# Editor
+.vscode
+.idea
+
+# Local docs that shouldn't be in the image
+DEPLOYMENT.md
+README.md

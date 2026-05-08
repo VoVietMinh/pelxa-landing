@@ -30,6 +30,11 @@ app.use(express.json());
 // Trust proxy in case of reverse proxy
 app.set('trust proxy', 1);
 
+// Health check (used by Docker healthcheck + deploy script)
+app.get('/healthz', (req, res) => {
+  res.status(200).json({ status: 'ok', uptime: process.uptime() });
+});
+
 // Mount locale-aware routes
 app.use('/', buildRoutes());
 
