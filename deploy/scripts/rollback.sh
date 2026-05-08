@@ -1,23 +1,27 @@
 #!/usr/bin/env bash
 # =========================================================================
-# Pelxa — Rollback to the previous color
+# Pelxa — Rollback to the previous color (host nginx variant)
 #
-# Useful if the new deploy passed health checks but you discover a problem
-# minutes later. As long as the OLD color image is still on the host, this
-# script can flip traffic back without rebuilding anything.
+# Useful if a deploy passed health checks but you discover a problem later.
+# As long as the OLD color image is still on the host, this brings the
+# previous color up using the cached image and flips traffic back.
 # =========================================================================
 set -euo pipefail
 cd "$(cd "$(dirname "$0")/../.." && pwd)"
 
-ACTIVE_FILE="deploy/nginx/active/upstream.conf"
+UPSTREAM_FILE="/etc/nginx/conf.d/01-pelxa-upstream.conf"
+BLUE_PORT=5001
+GREEN_PORT=5002
 
-if grep -q "pelxa_blue:3000" "$ACTIVE_FILE"; then
-  CURRENT="blue"; OTHER="green"
+if grep -q "127.0.0.1:${BLUE_PORT}" "$UPSTREAM_FILE"; then
+  CURRENT="blue";  CURRENT_PORT=$BLUE_PORT
+  OTHER="green";   OTHER_PORT=$GREEN_PORT
 else
-  CURRENT="green"; OTHER="blue"
+  CURRENT="green"; CURRENT_PORT=$GREEN_PORT
+  OTHER="blue";    OTHER_PORT=$BLUE_PORT
 fi
 
-echo "[rollback] active=$CURRENT  rolling back to=$OTHER"
+echo "[rollback] active=${CURRENT}:${CURRENT_PORT}  rolling back to=${OTHER}:${OTHER_PORT}"
 
 # Start the other color from the existing image
 docker compose --profile "$OTHER" up -d --no-deps "pelxa_${OTHER}"
@@ -33,17 +37,17 @@ done
 TMP="$(mktemp)"
 cat > "$TMP" <<EOF
 upstream pelxa_active {
-    server pelxa_${OTHER}:3000 max_fails=2 fail_timeout=5s;
+    server 127.0.0.1:${OTHER_PORT} max_fails=2 fail_timeout=5s;
     keepalive 16;
 }
 EOF
-mv "$TMP" "$ACTIVE_FILE"
+mv "$TMP" "$UPSTREAM_FILE"
 
-docker compose exec -T nginx nginx -t
-docker compose exec -T nginx nginx -s reload
+nginx -t
+nginx -s reload
 
 sleep 5
 docker compose --profile "$CURRENT" stop "pelxa_${CURRENT}" || true
 docker compose --profile "$CURRENT" rm -f "pelxa_${CURRENT}" || true
 
-echo "[rollback] done — active=${OTHER}"
+echo "[rollback] done — active=${OTHER}:${OTHER_PORT}"
