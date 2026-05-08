@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "Pelxa",
+    "tagline": "Content · Ads · Traffic — Global, Future Ready",
+    "ctaPrimary": "Register as Partner",
+    "ctaPrimaryUrl": "https://partner.pelxa.com",
+    "ctaSecondary": "Talk to us"
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "partners": "Partners",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "switchTo": "Tiếng Việt"
+  },
+  "footer": {
+    "tagline": "The growth platform for content, ads and traffic — built for global publishers, partners and creators.",
+    "company": "Company",
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "careers": "Careers",
+      "solutions": "Solutions",
+      "partners": "Partners",
+      "blog": "Blog",
+      "brand": "Brand kit",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "rights": "All rights reserved.",
+    "newsletter": {
+      "title": "Get the Pelxa weekly brief",
+      "subtitle": "Insights on content, traffic and monetization — once a week, no fluff.",
+      "placeholder": "your@email.com",
+      "button": "Subscribe"
+    }
+  },
+  "home": {
+    "metaTitle": "Pelxa — Content, Ads & Traffic Solutions for Global Partners",
+    "metaDescription": "Pelxa is the growth platform for partners, publishers, creators and social page owners. Grow traffic, monetize and optimize ad revenue — globally.",
+    "hero": {
+      "eyebrow": "Content · Ads · Traffic — Global",
+      "title": "Grow traffic. Monetize at scale. Optimize globally.",
+      "subtitle": "Pelxa helps partners, publishers, creators and social page owners turn content into measurable revenue — with smart, data-driven solutions built for global growth.",
+      "primary": "Register as Partner",
+      "secondary": "Explore solutions",
+      "stats": [
+        { "value": "180+", "label": "markets reached" },
+        { "value": "30–60%", "label": "average RPM lift" },
+        { "value": "1.2B+", "label": "monthly impressions" }
+      ]
+    },
+    "trust": {
+      "title": "Trusted by partners running global content & monetization",
+      "items": ["Publisher Network", "Creator Studio", "Page Owners", "Media Group", "Affiliate Hub", "Traffic Lab"]
+    },
+    "pillars": {
+      "eyebrow": "What we do",
+      "title": "Three solution pillars built for growth",
+      "subtitle": "From sourcing trending content to squeezing every percentage point out of your ads — Pelxa covers the full traffic-to-revenue path.",
+      "items": [
+        { "icon": "content", "title": "Content Solutions", "description": "Trending, viral and high-traffic content — classified by topic, market and predicted performance, ready to grow your channels.", "bullets": ["Topic + market filters", "Performance-tiered library", "Channel growth playbooks"] },
+        { "icon": "traffic", "title": "Social Traffic Monetization", "description": "Convert social traffic into revenue. Track every source, channel and conversion in one performance layer.", "bullets": ["Source-level tracking", "Conversion attribution", "Revenue per channel"] },
+        { "icon": "ads", "title": "Ads Monetization Optimization", "description": "Tune placements, funnels, RPM and eCPM — and let our analytics layer keep optimizing per traffic source.", "bullets": ["Placement & viewability", "RPM / eCPM tuning", "Per-source revenue insights"] }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Pelxa",
+      "title": "Smart by design. Clean in execution. Built for global.",
+      "items": [
+        { "icon": "smart-ai", "title": "Data-driven, AI-assisted", "description": "Every recommendation is backed by performance data — not opinions." },
+        { "icon": "global", "title": "Global by default", "description": "Partner inventory routed across Tier-1, Tier-2 and Tier-3 demand." },
+        { "icon": "analytics", "title": "Transparent analytics", "description": "Source, channel, content and revenue in a single performance view." },
+        { "icon": "future", "title": "Future-ready stack", "description": "Built on a flexible architecture that adapts to platform shifts." }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "From traffic to revenue, in four clean steps",
+      "steps": [
+        { "step": "01", "title": "Register as Partner", "description": "Tell us about your channels, audience and markets." },
+        { "step": "02", "title": "Plug in content", "description": "Pull trending, performance-tiered content from our library." },
+        { "step": "03", "title": "Monetize traffic", "description": "Activate ads, tracking and conversion logic per source." },
+        { "step": "04", "title": "Optimize & scale", "description": "We tune placement, RPM and routing — you see revenue grow." }
+      ]
+    },
+    "blog": {
+      "eyebrow": "Resources",
+      "title": "Latest insights",
+      "subtitle": "Field notes from the Pelxa team on content, traffic and monetization.",
+      "viewAll": "View all"
+    },
+    "ctaBand": {
+      "title": "Ready to turn your traffic into revenue?",
+      "subtitle": "Register as a Pelxa partner and get a tailored growth plan within 48 hours.",
+      "primary": "Register as Partner",
+      "secondary": "Contact sales"
+    }
+  },
+  "solutions": {
+    "metaTitle": "Solutions — Pelxa Content, Traffic & Ads Monetization",
+    "metaDescription": "Three solution pillars to grow traffic and revenue: Content Solutions, Social Traffic Monetization, and Ads Monetization Optimization.",
+    "hero": {
+      "eyebrow": "Solutions",
+      "title": "One platform. Three growth engines.",
+      "subtitle": "Pelxa pairs trending content with monetization and ads optimization so partners can grow traffic and revenue at the same time."
+    },
+    "pillars": [
+      { "icon": "content", "title": "Content Solutions", "description": "A curated source of trending, viral and high-traffic content — sorted by topic, market, performance band and traffic potential. Built to feed and grow social channels at scale.", "features": ["Trending + viral content library", "Topic, market and surface filters", "Channel growth playbooks for partners", "Performance-tiered content classification"] },
+      { "icon": "traffic", "title": "Social Traffic Monetization", "description": "Turn social traffic into measurable revenue. We help partners route, track and convert traffic from social pages and channels — with full visibility from source to outcome.", "features": ["Earn from your social traffic", "Convert page/channel traffic into revenue", "Performance, source and conversion tracking", "Per-source revenue attribution"] },
+      { "icon": "ads", "title": "Ads Monetization Optimization", "description": "We optimize ad placement, funnels, RPM/eCPM and overall monetization quality — using analytics to lift revenue source by source, not just on average.", "features": ["Placement and funnel optimization", "RPM / eCPM and revenue tuning", "Per-source data analysis", "Continuous monetization improvements"] }
+    ],
+    "stack": {
+      "eyebrow": "Smart stack",
+      "title": "Built on a clean, future-ready stack",
+      "description": "Modular by design — partners plug in only what they need, when they need it.",
+      "items": [
+        { "icon": "smart-ai", "title": "AI-assisted classification", "description": "Tag and route content by performance, audience and surface." },
+        { "icon": "analytics", "title": "Performance analytics", "description": "Source, channel, content and revenue in one view." },
+        { "icon": "connect", "title": "Open integrations", "description": "Connect with your existing channels, networks and tracking." },
+        { "icon": "global", "title": "Global routing", "description": "Demand routed across Tier-1, Tier-2 and Tier-3 markets." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Pick the pillars that fit. Pelxa wires the rest.",
+      "subtitle": "Register as a partner and we'll design a path that matches your channels and markets.",
+      "primary": "Register as Partner",
+      "secondary": "Talk to us"
+    }
+  },
+  "partners": {
+    "metaTitle": "Partners — Grow with Pelxa",
+    "metaDescription": "Built for partners, publishers, creators and social page owners. Register as a Pelxa partner and grow traffic and revenue globally.",
+    "hero": {
+      "eyebrow": "Partners",
+      "title": "Built for partners. Wired for growth.",
+      "subtitle": "Whether you run a publisher network, a creator studio, or a portfolio of social pages — Pelxa fits the way you already work."
+    },
+    "audience": {
+      "title": "Who we work with",
+      "items": [
+        { "icon": "content", "title": "Publishers", "description": "Sites and networks looking to grow traffic and lift ad revenue per session." },
+        { "icon": "connect", "title": "Partners", "description": "Agencies and growth teams wanting a global content + monetization layer." },
+        { "icon": "smart-ai", "title": "Creators", "description": "Creators with audience but limited time — we plug in content and monetization." },
+        { "icon": "traffic", "title": "Page owners", "description": "Owners of social pages and channels who want to monetize traffic cleanly." }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why partner with Pelxa",
+      "title": "Real growth. Transparent data. Global reach.",
+      "items": [
+        { "icon": "global", "title": "Global demand", "description": "Tap into Tier-1 to Tier-3 demand from a single integration." },
+        { "icon": "analytics", "title": "Clean analytics", "description": "Track source, channel, content and revenue in one place." },
+        { "icon": "future", "title": "Future-ready", "description": "An adaptable stack that keeps up with platform shifts." },
+        { "icon": "ads", "title": "Better RPM / eCPM", "description": "Optimization and routing focused on lifting per-impression value." }
+      ]
+    },
+    "process": {
+      "eyebrow": "How to join",
+      "title": "Three steps to go live",
+      "steps": [
+        { "step": "01", "title": "Apply", "description": "Submit your channel, audience and market mix in 2 minutes." },
+        { "step": "02", "title": "Plan", "description": "Get a tailored growth plan from our partner team within 48 hours." },
+        { "step": "03", "title": "Launch", "description": "Activate content, monetization and tracking — and start measuring lift." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Become a Pelxa Partner",
+      "subtitle": "Register now and start your tailored growth plan.",
+      "primary": "Register as Partner",
+      "secondary": "Contact us"
+    }
+  },
+  "resources": {
+    "metaTitle": "Resources — Pelxa insights on content, traffic & monetization",
+    "metaDescription": "Field notes, guides and frameworks from the Pelxa team on content, traffic and monetization.",
+    "hero": {
+      "eyebrow": "Resources",
+      "title": "Insights from the Pelxa team",
+      "subtitle": "Strategy notes, monetization frameworks and field reports from partners growing globally."
+    },
+    "labels": {
+      "readMinutes": "min read",
+      "readMore": "Read more",
+      "related": "Related reads",
+      "back": "Back to all resources"
+    }
+  },
+  "about": {
+    "metaTitle": "About Pelxa — The growth platform for content, ads & traffic",
+    "metaDescription": "Pelxa is a digital growth platform for partners and creators — clean, smart, and built for global content, ads and traffic monetization.",
+    "hero": {
+      "eyebrow": "About",
+      "title": "We're building the growth platform for the global content economy.",
+      "subtitle": "Clean. Clear. Smart. Future-ready."
+    },
+    "story": {
+      "title": "Our story",
+      "paragraphs": [
+        "Pelxa was started by a team of operators who'd spent years running content, ads and traffic at scale — and kept hitting the same problem: every part of the funnel lived in a different tool, with a different version of the truth.",
+        "So we built one. A platform where content, traffic and monetization all share the same data layer, the same tracking and the same definition of revenue. Partners stop guessing — and start growing."
+      ]
+    },
+    "values": {
+      "title": "What we believe",
+      "items": [
+        { "title": "Clean", "description": "Transparent in data and commitments." },
+        { "title": "Clear", "description": "Simple, sharp, on-point communication." },
+        { "title": "Smart", "description": "AI and data-driven across every solution." },
+        { "title": "Global", "description": "Built for partners and audiences worldwide." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Want to grow with us?",
+      "subtitle": "Register as a Pelxa partner today.",
+      "primary": "Register as Partner",
+      "secondary": "Contact us"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact Pelxa — Partner with us",
+    "metaDescription": "Talk to the Pelxa team about partnership, content, traffic or monetization. Email, Telegram or social — pick what works for you.",
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk growth.",
+      "subtitle": "Tell us about your channels and markets — we'll get back within 1 business day. Pick the channel that works best for you."
+    },
+    "channelsTitle": "Reach the team",
+    "channelsSubtitle": "Direct line to a real human. No bots, no ticket queues.",
+    "channels": [
+      { "key": "email", "icon": "content", "label": "Email", "value": "admin.pelxa@gmail.com", "href": "mailto:admin.pelxa@gmail.com", "description": "Best for partnership, billing and detailed inquiries." },
+      { "key": "telegram", "icon": "connect", "label": "Telegram", "value": "@alexvo2222", "href": "https://t.me/alexvo2222", "description": "Fastest channel for live chat with our team." },
+      { "key": "website", "icon": "global", "label": "Website", "value": "pelxa.com", "href": "https://pelxa.com", "description": "Latest product updates, case studies and resources." },
+      { "key": "facebook", "icon": "traffic", "label": "Facebook", "value": "facebook.com/tony.nguyen.926068", "href": "https://www.facebook.com/tony.nguyen.926068/", "description": "Follow the founder for updates and behind-the-scenes." }
+    ],
+    "ctaBand": {
+      "title": "Ready to grow with Pelxa?",
+      "subtitle": "Skip the queue and register as a partner — we'll send you a tailored growth plan within 48 hours.",
+      "primary": "Register as Partner",
+      "secondary": "Email us"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "We couldn't find that page. Let's get you back on track.",
+    "back": "Back to home"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "Pelxa",
+    "tagline": "Content · Ads · Traffic — Global, Future Ready",
+    "ctaPrimary": "Đăng ký Đối tác",
+    "ctaPrimaryUrl": "https://partner.pelxa.com",
+    "ctaSecondary": "Liên hệ với chúng tôi"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "solutions": "Giải pháp",
+    "partners": "Đối tác",
+    "resources": "Tài nguyên",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "switchTo": "English"
+  },
+  "footer": {
+    "tagline": "Nền tảng tăng trưởng cho content, quảng cáo và traffic — phục vụ publisher, partner và creator toàn cầu.",
+    "company": "Công ty",
+    "product": "Sản phẩm",
+    "resources": "Tài nguyên",
+    "legal": "Pháp lý",
+    "links": {
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "careers": "Tuyển dụng",
+      "solutions": "Giải pháp",
+      "partners": "Đối tác",
+      "blog": "Blog",
+      "brand": "Brand kit",
+      "privacy": "Bảo mật",
+      "terms": "Điều khoản"
+    },
+    "rights": "Bản quyền thuộc về Pelxa.",
+    "newsletter": {
+      "title": "Nhận bản tin Pelxa hàng tuần",
+      "subtitle": "Insight về content, traffic và monetization — gọn, đúng trọng tâm, mỗi tuần một lần.",
+      "placeholder": "email@cuaban.com",
+      "button": "Đăng ký"
+    }
+  },
+  "home": {
+    "metaTitle": "Pelxa — Giải pháp Content, Ads & Traffic toàn cầu cho Đối tác",
+    "metaDescription": "Pelxa là nền tảng tăng trưởng cho partner, publisher, creator và chủ social page. Tăng traffic, kiếm tiền và tối ưu doanh thu quảng cáo trên quy mô toàn cầu.",
+    "hero": {
+      "eyebrow": "Content · Ads · Traffic — Toàn cầu",
+      "title": "Tăng traffic. Kiếm tiền theo quy mô. Tối ưu toàn cầu.",
+      "subtitle": "Pelxa giúp partner, publisher, creator và chủ social page biến content thành doanh thu đo được — với giải pháp thông minh, dữ liệu dẫn đường, sẵn sàng cho thị trường toàn cầu.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Khám phá giải pháp",
+      "stats": [
+        { "value": "180+", "label": "thị trường phủ sóng" },
+        { "value": "30–60%", "label": "RPM tăng trung bình" },
+        { "value": "1.2B+", "label": "lượt impression / tháng" }
+      ]
+    },
+    "trust": {
+      "title": "Được tin chọn bởi các đối tác content & monetization toàn cầu",
+      "items": ["Publisher Network", "Creator Studio", "Page Owners", "Media Group", "Affiliate Hub", "Traffic Lab"]
+    },
+    "pillars": {
+      "eyebrow": "Pelxa làm gì",
+      "title": "Ba trụ giải pháp được thiết kế cho tăng trưởng",
+      "subtitle": "Từ nguồn content trending đến tối ưu từng phần trăm doanh thu quảng cáo — Pelxa lo trọn hành trình traffic-to-revenue.",
+      "items": [
+        { "icon": "content", "title": "Content Solutions", "description": "Nguồn content trending, viral, high-traffic — phân loại theo chủ đề, thị trường và band hiệu suất, sẵn sàng nuôi và phát triển kênh.", "bullets": ["Lọc theo chủ đề + thị trường", "Thư viện chia tier hiệu suất", "Playbook phát triển kênh"] },
+        { "icon": "traffic", "title": "Social Traffic Monetization", "description": "Biến traffic social thành doanh thu đo được. Track đầy đủ nguồn traffic, kênh và conversion trong một lớp performance.", "bullets": ["Tracking theo nguồn", "Quy doanh thu theo conversion", "Doanh thu theo từng kênh"] },
+        { "icon": "ads", "title": "Ads Monetization Optimization", "description": "Tối ưu placement, funnel, RPM và eCPM — analytics layer liên tục cải thiện theo từng nguồn traffic.", "bullets": ["Placement & viewability", "Tối ưu RPM / eCPM", "Insight doanh thu theo nguồn"] }
+      ]
+    },
+    "why": {
+      "eyebrow": "Vì sao chọn Pelxa",
+      "title": "Smart từ thiết kế. Clean trong vận hành. Sẵn sàng toàn cầu.",
+      "items": [
+        { "icon": "smart-ai", "title": "Dữ liệu dẫn đường, có AI hỗ trợ", "description": "Mọi đề xuất đều dựa trên dữ liệu hiệu suất, không phải cảm tính." },
+        { "icon": "global", "title": "Toàn cầu mặc định", "description": "Inventory partner được route qua demand Tier-1, Tier-2, Tier-3." },
+        { "icon": "analytics", "title": "Analytics minh bạch", "description": "Source, kênh, content và doanh thu trong cùng một dashboard." },
+        { "icon": "future", "title": "Stack future-ready", "description": "Kiến trúc linh hoạt, thích ứng nhanh khi nền tảng thay đổi." }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "Cách hoạt động",
+      "title": "Từ traffic đến doanh thu, qua bốn bước gọn",
+      "steps": [
+        { "step": "01", "title": "Đăng ký Đối tác", "description": "Cho chúng tôi biết về kênh, audience và thị trường của bạn." },
+        { "step": "02", "title": "Plug-in content", "description": "Lấy content trending, đã chia tier hiệu suất từ thư viện Pelxa." },
+        { "step": "03", "title": "Monetize traffic", "description": "Kích hoạt ads, tracking và conversion theo từng nguồn." },
+        { "step": "04", "title": "Tối ưu & scale", "description": "Chúng tôi tinh chỉnh placement, RPM và routing — bạn thấy doanh thu tăng." }
+      ]
+    },
+    "blog": {
+      "eyebrow": "Tài nguyên",
+      "title": "Insight mới nhất",
+      "subtitle": "Ghi chú thực chiến từ team Pelxa về content, traffic và monetization.",
+      "viewAll": "Xem tất cả"
+    },
+    "ctaBand": {
+      "title": "Sẵn sàng biến traffic thành doanh thu?",
+      "subtitle": "Đăng ký đối tác Pelxa và nhận growth plan riêng trong vòng 48 giờ.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Liên hệ Sales"
+    }
+  },
+  "solutions": {
+    "metaTitle": "Giải pháp — Content, Traffic & Ads của Pelxa",
+    "metaDescription": "Ba trụ giải pháp giúp tăng traffic và doanh thu: Content Solutions, Social Traffic Monetization và Ads Monetization Optimization.",
+    "hero": {
+      "eyebrow": "Giải pháp",
+      "title": "Một nền tảng. Ba động cơ tăng trưởng.",
+      "subtitle": "Pelxa kết hợp content trending với monetization và tối ưu quảng cáo để partner tăng traffic và doanh thu đồng thời."
+    },
+    "pillars": [
+      { "icon": "content", "title": "Content Solutions", "description": "Nguồn content trending, viral, high-traffic — phân loại theo chủ đề, thị trường, band hiệu suất và khả năng kéo traffic. Hỗ trợ nuôi và phát triển kênh social ở quy mô lớn.", "features": ["Thư viện content trending + viral", "Lọc theo chủ đề, thị trường, surface", "Playbook phát triển kênh dành cho partner", "Phân loại content theo tier hiệu suất"] },
+      { "icon": "traffic", "title": "Social Traffic Monetization", "description": "Biến traffic social thành doanh thu đo được. Pelxa giúp partner route, track và convert traffic từ social page/kênh — minh bạch từ source đến outcome.", "features": ["Kiếm tiền từ traffic social", "Chuyển traffic page/channel thành revenue", "Tracking performance, source và conversion", "Quy doanh thu theo từng nguồn"] },
+      { "icon": "ads", "title": "Ads Monetization Optimization", "description": "Tối ưu placement quảng cáo, funnel, RPM/eCPM và chất lượng monetization — dùng analytics nâng doanh thu theo từng nguồn, không chỉ theo trung bình.", "features": ["Tối ưu placement và funnel", "Tinh chỉnh RPM / eCPM và doanh thu", "Phân tích dữ liệu theo từng nguồn", "Liên tục cải thiện monetization"] }
+    ],
+    "stack": {
+      "eyebrow": "Smart stack",
+      "title": "Xây trên một stack clean và future-ready",
+      "description": "Modular từ thiết kế — partner chọn dùng đúng cái cần, đúng lúc cần.",
+      "items": [
+        { "icon": "smart-ai", "title": "Phân loại có AI hỗ trợ", "description": "Tag và route content theo hiệu suất, audience và surface." },
+        { "icon": "analytics", "title": "Analytics performance", "description": "Source, kênh, content và doanh thu trong một view." },
+        { "icon": "connect", "title": "Tích hợp mở", "description": "Kết nối với kênh, network và tracking sẵn có." },
+        { "icon": "global", "title": "Routing toàn cầu", "description": "Demand được route qua thị trường Tier-1, Tier-2, Tier-3." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Chọn trụ phù hợp. Pelxa lo phần còn lại.",
+      "subtitle": "Đăng ký đối tác và chúng tôi sẽ thiết kế lộ trình hợp với kênh và thị trường của bạn.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Liên hệ"
+    }
+  },
+  "partners": {
+    "metaTitle": "Đối tác — Cùng tăng trưởng với Pelxa",
+    "metaDescription": "Dành cho partner, publisher, creator và chủ social page. Đăng ký đối tác Pelxa và tăng traffic, doanh thu trên toàn cầu.",
+    "hero": {
+      "eyebrow": "Đối tác",
+      "title": "Thiết kế cho partner. Sẵn sàng cho tăng trưởng.",
+      "subtitle": "Dù bạn vận hành publisher network, creator studio hay portfolio social pages — Pelxa lắp khớp với cách bạn đang làm."
+    },
+    "audience": {
+      "title": "Chúng tôi đồng hành cùng",
+      "items": [
+        { "icon": "content", "title": "Publisher", "description": "Site và network muốn tăng traffic và lift doanh thu ads/session." },
+        { "icon": "connect", "title": "Partner", "description": "Agency và team growth cần một lớp content + monetization toàn cầu." },
+        { "icon": "smart-ai", "title": "Creator", "description": "Creator có audience nhưng thiếu thời gian — Pelxa plug-in content và monetization." },
+        { "icon": "traffic", "title": "Page owner", "description": "Chủ social page và channel muốn monetize traffic minh bạch." }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Vì sao hợp tác với Pelxa",
+      "title": "Tăng trưởng thật. Dữ liệu minh bạch. Phủ sóng toàn cầu.",
+      "items": [
+        { "icon": "global", "title": "Demand toàn cầu", "description": "Tiếp cận demand Tier-1 đến Tier-3 chỉ qua một tích hợp." },
+        { "icon": "analytics", "title": "Analytics gọn", "description": "Track source, kênh, content và doanh thu cùng một chỗ." },
+        { "icon": "future", "title": "Future-ready", "description": "Stack linh hoạt, theo kịp các thay đổi của nền tảng." },
+        { "icon": "ads", "title": "RPM / eCPM tốt hơn", "description": "Tối ưu và routing tập trung nâng giá trị từng impression." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Cách tham gia",
+      "title": "Ba bước go-live",
+      "steps": [
+        { "step": "01", "title": "Apply", "description": "Gửi thông tin kênh, audience và thị trường trong 2 phút." },
+        { "step": "02", "title": "Plan", "description": "Nhận growth plan riêng từ team partner trong 48 giờ." },
+        { "step": "03", "title": "Launch", "description": "Kích hoạt content, monetization và tracking — đo lift ngay." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Trở thành Đối tác Pelxa",
+      "subtitle": "Đăng ký ngay và nhận growth plan riêng cho bạn.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Liên hệ"
+    }
+  },
+  "resources": {
+    "metaTitle": "Tài nguyên — Insight Pelxa về content, traffic & monetization",
+    "metaDescription": "Ghi chú thực chiến, hướng dẫn và framework từ team Pelxa về content, traffic và monetization.",
+    "hero": {
+      "eyebrow": "Tài nguyên",
+      "title": "Insight từ team Pelxa",
+      "subtitle": "Strategy notes, framework monetization và báo cáo thực chiến từ partner đang tăng trưởng toàn cầu."
+    },
+    "labels": {
+      "readMinutes": "phút đọc",
+      "readMore": "Đọc tiếp",
+      "related": "Bài liên quan",
+      "back": "Quay lại tất cả tài nguyên"
+    }
+  },
+  "about": {
+    "metaTitle": "Về Pelxa — Nền tảng tăng trưởng Content, Ads & Traffic",
+    "metaDescription": "Pelxa là nền tảng tăng trưởng số cho partner và creator — clean, smart, sẵn sàng cho monetization toàn cầu.",
+    "hero": {
+      "eyebrow": "Về chúng tôi",
+      "title": "Chúng tôi xây nền tảng tăng trưởng cho nền kinh tế content toàn cầu.",
+      "subtitle": "Clean. Clear. Smart. Future-ready."
+    },
+    "story": {
+      "title": "Câu chuyện Pelxa",
+      "paragraphs": [
+        "Pelxa được khởi xướng bởi một nhóm operator nhiều năm vận hành content, ads và traffic ở quy mô lớn — và liên tục gặp cùng một vấn đề: từng phần funnel nằm ở công cụ khác nhau, với cách tính khác nhau.",
+        "Vậy nên chúng tôi xây ra Pelxa. Một nền tảng nơi content, traffic và monetization dùng chung lớp dữ liệu, chung cách tracking và chung định nghĩa doanh thu. Partner thôi đoán — và bắt đầu tăng trưởng."
+      ]
+    },
+    "values": {
+      "title": "Niềm tin của chúng tôi",
+      "items": [
+        { "title": "Clean", "description": "Minh bạch trong dữ liệu và cam kết." },
+        { "title": "Clear", "description": "Đơn giản, rõ, đúng trọng tâm." },
+        { "title": "Smart", "description": "AI và data-driven trong mọi giải pháp." },
+        { "title": "Global", "description": "Phục vụ partner và audience toàn cầu." }
+      ]
+    },
+    "ctaBand": {
+      "title": "Muốn tăng trưởng cùng chúng tôi?",
+      "subtitle": "Đăng ký đối tác Pelxa hôm nay.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Liên hệ"
+    }
+  },
+  "contact": {
+    "metaTitle": "Liên hệ Pelxa — Hợp tác cùng chúng tôi",
+    "metaDescription": "Trao đổi với team Pelxa qua email, Telegram hoặc social — chọn kênh phù hợp với bạn.",
+    "hero": {
+      "eyebrow": "Liên hệ",
+      "title": "Trao đổi cùng chúng tôi.",
+      "subtitle": "Cho chúng tôi biết về kênh và thị trường của bạn — chúng tôi phản hồi trong vòng 1 ngày làm việc. Chọn kênh tiện nhất cho bạn."
+    },
+    "channelsTitle": "Kết nối với team",
+    "channelsSubtitle": "Đường dây trực tiếp tới người thật. Không bot, không hàng chờ ticket.",
+    "channels": [
+      { "key": "email", "icon": "content", "label": "Email", "value": "admin.pelxa@gmail.com", "href": "mailto:admin.pelxa@gmail.com", "description": "Phù hợp cho hợp tác, thanh toán và trao đổi chi tiết." },
+      { "key": "telegram", "icon": "connect", "label": "Telegram", "value": "@alexvo2222", "href": "https://t.me/alexvo2222", "description": "Kênh nhanh nhất để chat trực tiếp với team." },
+      { "key": "website", "icon": "global", "label": "Website", "value": "pelxa.com", "href": "https://pelxa.com", "description": "Cập nhật sản phẩm, case study và tài nguyên mới nhất." },
+      { "key": "facebook", "icon": "traffic", "label": "Facebook", "value": "facebook.com/tony.nguyen.926068", "href": "https://www.facebook.com/tony.nguyen.926068/", "description": "Theo dõi founder để cập nhật và xem behind-the-scenes." }
+    ],
+    "ctaBand": {
+      "title": "Sẵn sàng tăng trưởng cùng Pelxa?",
+      "subtitle": "Bỏ qua hàng chờ — đăng ký đối tác và nhận growth plan riêng trong 48 giờ.",
+      "primary": "Đăng ký Đối tác",
+      "secondary": "Gửi email cho chúng tôi"
+    }
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Chúng tôi không tìm thấy trang này. Hãy quay lại trang chủ.",
+    "back": "Về trang chủ"
+  }
+}

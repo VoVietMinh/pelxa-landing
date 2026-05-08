@@ -1,0 +1,31 @@
+<%- include('../partials/page-hero', { hero: t.contact.hero }) %>
+
+<section class="py-20 lg:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl">
+      <h2 class="text-3xl sm:text-4xl font-display font-bold text-navy tracking-[-0.02em]"><%= t.contact.channelsTitle %></h2>
+      <p class="mt-4 text-lg text-slate-700"><%= t.contact.channelsSubtitle %></p>
+    </div>
+
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+      <% t.contact.channels.forEach(function(ch){ %>
+        <a href="<%= ch.href %>" <%= ch.key === 'email' ? '' : 'target="_blank" rel="noopener"' %> class="group card flex items-start gap-5">
+          <div class="flex-shrink-0 w-14 h-14 rounded-2xl bg-ice-blue flex items-center justify-center transition-transform group-hover:scale-105">
+            <img src="/assets/icons/<%= ch.icon %>.svg" alt="" class="w-9 h-9" aria-hidden="true" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <p class="text-xs font-semibold text-cool-gray uppercase tracking-wide"><%= ch.label %></p>
+            <p class="mt-1 text-lg font-bold text-navy break-all group-hover:text-pelxa-blue transition-colors"><%= ch.value %></p>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed"><%= ch.description %></p>
+          </div>
+          <svg class="flex-shrink-0 w-5 h-5 text-pelxa-blue mt-1 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="7" y1="17" x2="17" y2="7"/>
+            <polyline points="7 7 17 7 17 17"/>
+          </svg>
+        </a>
+      <% }); %>
+    </div>
+  </div>
+</section>
+
+<%- include('../partials/cta-band', { cta: t.contact.ctaBand }) %>

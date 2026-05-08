@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-feature-settings: "ss01", "cv01", "cv02";
+    color: #3D4F66;
+    background-color: #FFFFFF;
+  }
+  h1, h2, h3, h4, h5 {
+    color: #0A2540;
+  }
+  a {
+    color: inherit;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-pelxa-blue text-white font-semibold tracking-tight transition-all shadow-btn-blue;
+  }
+  .btn-primary:hover {
+    @apply bg-deep-ocean shadow-pelxa -translate-y-0.5;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 rounded-xl border-[1.5px] border-pelxa-blue text-pelxa-blue font-semibold tracking-tight bg-transparent transition-all hover:bg-pelxa-blue/[0.04];
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full bg-ice-blue text-pelxa-blue text-xs font-semibold tracking-wide uppercase;
+  }
+
+  .card {
+    @apply rounded-3xl bg-white border border-soft-border p-7 shadow-card-soft transition-all hover:shadow-pelxa hover:-translate-y-0.5;
+  }
+  .card-soft {
+    @apply rounded-3xl bg-white border border-soft-border p-7 shadow-card-soft;
+  }
+  .card-feature {
+    @apply rounded-3xl bg-white border border-soft-border p-7 shadow-pelxa;
+  }
+
+  .form-label {
+    @apply block text-sm font-semibold text-navy mb-1.5;
+  }
+  .form-input {
+    @apply block w-full px-4 py-3 rounded-xl border-[1.5px] border-soft-border bg-white text-navy placeholder-cool-gray transition-colors focus:outline-none focus:border-pelxa-blue focus:ring-4 focus:ring-pelxa-blue/15;
+  }
+
+  .prose-pelxa {
+    @apply text-lg leading-[1.75] text-slate-700;
+  }
+  .prose-pelxa p {
+    @apply mb-5;
+  }
+  .prose-pelxa p:last-child {
+    @apply mb-0;
+  }
+  .prose-pelxa h2 {
+    @apply text-2xl font-bold text-navy mt-10 mb-4 tracking-[-0.01em];
+  }
+  .prose-pelxa h3 {
+    @apply text-xl font-bold text-navy mt-8 mb-3;
+  }
+  .prose-pelxa a {
+    @apply text-pelxa-blue underline underline-offset-2 hover:text-deep-ocean;
+  }
+  .prose-pelxa strong {
+    @apply font-semibold text-navy;
+  }
+  .prose-pelxa ul {
+    @apply list-disc pl-6 mb-5 space-y-2;
+  }
+  .prose-pelxa code {
+    @apply px-1.5 py-0.5 rounded bg-frost text-navy text-[0.85em];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

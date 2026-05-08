@@ -1,0 +1,53 @@
+<footer class="mt-24 bg-navy text-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid gap-12 md:grid-cols-12">
+      <div class="md:col-span-4">
+        <a href="<%= pathFor('home') %>" class="inline-flex items-center" aria-label="Pelxa home">
+          <img src="/assets/logo-primary.svg" alt="Pelxa" class="h-9 w-auto bg-white rounded-xl px-2 py-1" width="180" height="54" />
+        </a>
+        <p class="mt-5 text-white/70 max-w-sm leading-relaxed"><%= t.footer.tagline %></p>
+        <a href="<%= t.brand.ctaPrimaryUrl %>" target="_blank" rel="noopener" class="mt-6 inline-flex btn-primary text-sm">
+          <%= t.brand.ctaPrimary %>
+          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="md:col-span-2">
+        <h4 class="text-sm font-semibold text-white"><%= t.footer.company %></h4>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/70">
+          <li><a class="hover:text-white" href="<%= pathFor('about') %>"><%= t.footer.links.about %></a></li>
+          <li><a class="hover:text-white" href="<%= pathFor('contact') %>"><%= t.footer.links.contact %></a></li>
+          <li><a class="hover:text-white" href="<%= pathFor('partners') %>"><%= t.footer.links.careers %></a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2">
+        <h4 class="text-sm font-semibold text-white"><%= t.footer.product %></h4>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/70">
+          <li><a class="hover:text-white" href="<%= pathFor('solutions') %>"><%= t.footer.links.solutions %></a></li>
+          <li><a class="hover:text-white" href="<%= pathFor('partners') %>"><%= t.footer.links.partners %></a></li>
+          <li><a class="hover:text-white" href="<%= pathFor('resources') %>"><%= t.footer.links.blog %></a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-4">
+        <h4 class="text-sm font-semibold text-white"><%= t.footer.newsletter.title %></h4>
+        <p class="mt-2 text-sm text-white/70"><%= t.footer.newsletter.subtitle %></p>
+        <form class="mt-4 flex gap-2" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓';">
+          <input type="email" required placeholder="<%= t.footer.newsletter.placeholder %>" class="flex-1 px-4 py-2.5 rounded-xl bg-white/10 border border-white/15 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-pelxa-blue focus:border-transparent" />
+          <button type="submit" class="btn-primary text-sm whitespace-nowrap"><%= t.footer.newsletter.button %></button>
+        </form>
+        <p class="mt-4 text-xs text-white/50">brand@pelxa.com · partner@pelxa.com</p>
+      </div>
+    </div>
+
+    <div class="mt-14 pt-8 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <p class="text-xs text-white/50">© <%= new Date().getFullYear() %> Pelxa. <%= t.footer.rights %></p>
+      <div class="flex items-center gap-5 text-xs text-white/60">
+        <a href="<%= pathFor('home') %>" class="hover:text-white">pelxa.com</a>
+        <a href="<%= '/' + (locale === 'en' ? 'vi' : 'en') %>" class="hover:text-white"><%= t.nav.switchTo %></a>
+        <a href="/sitemap.xml" class="hover:text-white">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,63 @@
+<%
+  var altLocale = locale === 'en' ? 'vi' : 'en';
+  var altPath = (function(){
+    if (routeMap && currentRoute && routeMap[currentRoute]) {
+      var seg = routeMap[currentRoute][altLocale];
+      return seg ? ('/' + altLocale + '/' + seg) : ('/' + altLocale);
+    }
+    return '/' + altLocale;
+  })();
+  function isActive(key) { return currentRoute === key ? 'text-pelxa-blue' : 'text-navy hover:text-pelxa-blue'; }
+%>
+<header id="site-header" class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-soft-border/60">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex h-20 lg:h-24 items-center justify-between">
+      <a href="<%= pathFor('home') %>" class="flex items-center gap-2 group" aria-label="Pelxa home">
+        <img src="/assets/logo-primary.svg" alt="Pelxa" class="h-12 sm:h-14 lg:h-16 w-auto" width="240" height="72" />
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium" aria-label="Primary">
+        <a class="<%= isActive('home') %> transition-colors" href="<%= pathFor('home') %>"><%= t.nav.home %></a>
+        <a class="<%= isActive('solutions') %> transition-colors" href="<%= pathFor('solutions') %>"><%= t.nav.solutions %></a>
+        <a class="<%= isActive('partners') %> transition-colors" href="<%= pathFor('partners') %>"><%= t.nav.partners %></a>
+        <a class="<%= isActive('resources') %> transition-colors" href="<%= pathFor('resources') %>"><%= t.nav.resources %></a>
+        <a class="<%= isActive('about') %> transition-colors" href="<%= pathFor('about') %>"><%= t.nav.about %></a>
+        <a class="<%= isActive('contact') %> transition-colors" href="<%= pathFor('contact') %>"><%= t.nav.contact %></a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="<%= altPath %>" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-cool-gray hover:text-pelxa-blue transition-colors" rel="alternate" hreflang="<%= altLocale %>">
+          <svg class="w-4 h-4" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="3"/>
+            <ellipse cx="32" cy="32" rx="22" ry="10" stroke="currentColor" stroke-width="2.5"/>
+            <ellipse cx="32" cy="32" rx="10" ry="22" stroke="currentColor" stroke-width="2.5"/>
+          </svg>
+          <%= t.nav.switchTo %>
+        </a>
+        <a href="<%= t.brand.ctaPrimaryUrl %>" class="hidden sm:inline-flex btn-primary text-sm" target="_blank" rel="noopener">
+          <%= t.brand.ctaPrimary %>
+        </a>
+        <button type="button" id="mobile-menu-toggle" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg text-navy hover:bg-frost focus:outline-none focus:ring-2 focus:ring-pelxa-blue/30" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="lg:hidden hidden pb-5">
+      <nav class="flex flex-col gap-1 pt-2" aria-label="Mobile">
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('home') %>"><%= t.nav.home %></a>
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('solutions') %>"><%= t.nav.solutions %></a>
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('partners') %>"><%= t.nav.partners %></a>
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('resources') %>"><%= t.nav.resources %></a>
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('about') %>"><%= t.nav.about %></a>
+        <a class="px-3 py-2.5 rounded-lg text-navy hover:bg-frost font-medium" href="<%= pathFor('contact') %>"><%= t.nav.contact %></a>
+        <a class="px-3 py-2.5 rounded-lg text-cool-gray font-medium" href="<%= altPath %>" rel="alternate" hreflang="<%= altLocale %>"><%= t.nav.switchTo %></a>
+        <a href="<%= t.brand.ctaPrimaryUrl %>" class="mt-3 btn-primary justify-center" target="_blank" rel="noopener"><%= t.brand.ctaPrimary %></a>
+      </nav>
+    </div>
+  </div>
+</header>

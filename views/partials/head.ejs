@@ -1,0 +1,59 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0066FF" />
+
+<title><%= pageMeta.title %></title>
+<meta name="description" content="<%= pageMeta.description %>" />
+<meta name="robots" content="<%= pageMeta.robots || 'index, follow' %>" />
+<link rel="canonical" href="<%= pageMeta.url %>" />
+
+<!-- hreflang alternates -->
+<% supportedLocales.forEach(function(lc){
+  var seg = (routeMap && currentRoute && routeMap[currentRoute]) ? routeMap[currentRoute][lc] : '';
+  var altPath = seg ? ('/' + lc + '/' + seg) : ('/' + lc);
+%>
+<link rel="alternate" hreflang="<%= lc %>" href="https://pelxa.com<%= altPath %>" />
+<% }); %>
+<link rel="alternate" hreflang="x-default" href="https://pelxa.com/en" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="<%= pageMeta.ogType || 'website' %>" />
+<meta property="og:title" content="<%= pageMeta.title %>" />
+<meta property="og:description" content="<%= pageMeta.description %>" />
+<meta property="og:url" content="<%= pageMeta.url %>" />
+<meta property="og:image" content="<%= pageMeta.image %>" />
+<meta property="og:site_name" content="Pelxa" />
+<meta property="og:locale" content="<%= locale === 'vi' ? 'vi_VN' : 'en_US' %>" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="<%= pageMeta.title %>" />
+<meta name="twitter:description" content="<%= pageMeta.description %>" />
+<meta name="twitter:image" content="<%= pageMeta.image %>" />
+
+<!-- Favicons & app icons (from brand kit) -->
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+<link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon.png" />
+<link rel="apple-touch-icon" sizes="1024x1024" href="/assets/app-icon.png" />
+<link rel="mask-icon" href="/assets/favicon.svg" color="#0066FF" />
+
+<!-- Fonts: Plus Jakarta Sans + Inter -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" />
+
+<!-- Site styles -->
+<link rel="stylesheet" href="/css/tailwind.css" />
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pelxa",
+  "url": "https://pelxa.com",
+  "logo": "https://pelxa.com/assets/logo-primary.png",
+  "sameAs": [],
+  "description": "Pelxa — Content, Ads & Traffic solutions for global partners, publishers, creators and social page owners."
+}
+</script>

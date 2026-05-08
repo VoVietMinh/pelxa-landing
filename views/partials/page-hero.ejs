@@ -1,0 +1,15 @@
+<section class="relative overflow-hidden bg-frost border-b border-soft-border/60">
+  <div class="absolute -top-32 right-0 w-[28rem] h-[28rem] rounded-full bg-pelxa-blue/10 blur-3xl"></div>
+  <div class="absolute -top-24 -left-20 w-[20rem] h-[20rem] rounded-full bg-cyan-spark/10 blur-3xl"></div>
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <div class="max-w-3xl">
+      <span class="eyebrow"><%= hero.eyebrow %></span>
+      <h1 class="mt-3 text-4xl sm:text-5xl lg:text-[56px] lg:leading-[1.1] font-display font-extrabold text-navy tracking-[-0.02em]">
+        <%= hero.title %>
+      </h1>
+      <% if (hero.subtitle) { %>
+        <p class="mt-5 text-lg text-slate-700 leading-relaxed"><%= hero.subtitle %></p>
+      <% } %>
+    </div>
+  </div>
+</section>

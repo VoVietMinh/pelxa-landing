@@ -1,0 +1,462 @@
+{
+  "en": [
+    {
+      "slug": "social-traffic-monetization-playbook-2026",
+      "title": "The Social Traffic Monetization Playbook for 2026",
+      "excerpt": "Turn raw social traffic into predictable revenue. The four-layer framework Pelxa partners use to lift page-level RPM by 30–60% in under 60 days.",
+      "category": "Monetization",
+      "author": "Pelxa Insights",
+      "date": "2026-04-22",
+      "readMinutes": 8,
+      "cover": "/assets/social-cover.png",
+      "tags": ["monetization", "social", "rpm", "playbook"],
+      "body": [
+        "Most social pages leak revenue at three predictable points: traffic source mix, content-to-funnel fit, and ad placement quality. Teams that fix all three see double-digit RPM lifts within 30 days — and that lift compounds for the rest of the quarter.",
+        "Pelxa's monetization model splits the funnel into four measurable layers: traffic quality, intent classification, ad placement, and post-click experience. Each layer is tracked separately so you can isolate exactly where revenue is being created — or quietly lost.",
+        "Layer 1 — traffic quality. Inspect your top 10 referrers and tag each by intent: passive scroll, active search, deep-read. Passive scroll converts 3–5x worse than deep-read traffic on most ad units. If passive scroll is more than 60% of your inventory, monetize it differently — sticky and outstream units outperform display by a wide margin.",
+        "Layer 2 — intent classification. Tag every URL with topic, surface (feed, reels, shorts) and content depth. A 1,200-word explainer earns very different demand than a 30-second reel — and demand prices that gap aggressively. Most partners leave 15–25% on the table by treating all pageviews the same.",
+        "Layer 3 — ad placement. The biggest 2026 unlock is intent-aware placement. By aligning ad units with the reader's content moment, partners report eCPM lifts of 22–48% without changing any creative. Place high-impact units at the natural pause point — not the first 25% of the article.",
+        "Layer 4 — post-click experience. If your back button rate exceeds 35%, your placements are eating retention. Run viewability and time-to-load checks weekly; aim for 60%+ viewability and sub-2.5s LCP on mobile.",
+        "If you publish at scale, start with a 14-day instrumentation sprint, then iterate placements weekly. Discipline compounds — and so do the returns."
+      ]
+    },
+    {
+      "slug": "viral-content-engine-how-it-works",
+      "title": "Inside Pelxa's Viral Content Engine",
+      "excerpt": "How we score, classify and distribute content that consistently lands in the high-traffic tier across markets — and what changed for 2026.",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-04-18",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["content", "viral", "ai", "distribution"],
+      "body": [
+        "A viral hit is rarely an accident — it's the product of a tight feedback loop between signal, timing, and audience fit. Our engine treats every piece of content as a small experiment with a measurable outcome.",
+        "We classify content along four axes: topic, market, surface (feed, reels, shorts) and predicted performance band. Partners pick from libraries that already match their audience profile — which means fewer dead posts and a much higher hit rate on what does ship.",
+        "The 2026 update added two signals: emotional valence and remix-ability. Content that scores high on both shows a 3.4x higher probability of crossing into the top performance tier within the first 48 hours of distribution.",
+        "We also moved to per-market freshness scoring. A meme that's fresh in Indonesia may already be tired in the Philippines — same language, different fatigue curve. Partners now see freshness scores that reflect their exact audience geography.",
+        "Most partners see a 2–3x lift in median post performance during the first month. The teams that double down on the engine's recommendations — instead of overriding them — see 4–6x lift by month three."
+      ]
+    },
+    {
+      "slug": "ads-rpm-optimization-checklist",
+      "title": "The 12-Point Ads RPM Optimization Checklist",
+      "excerpt": "A field-tested checklist to audit ad placement, viewability and funnel hygiene in under 30 minutes.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-04-12",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "rpm", "ecpm", "optimization"],
+      "body": [
+        "Run this list quarterly. It's the same audit our team uses on partner accounts before we recommend any structural changes — and it consistently surfaces 10–20% of revenue hiding in fixable issues.",
+        "1. Viewability. Anything below 60% is a placement problem, not a demand problem. Check per-unit, not site-wide averages.",
+        "2. Refresh rules. Refresh below 30 seconds on visible inventory triggers buy-side filtering. Set 30–35s minimum, longer for mobile.",
+        "3. Ad-to-content ratio. Above 30% on mobile correlates with higher bounce. Keep dense placements above the fold; thin them out below.",
+        "4. Creative caps. Cap CPC creatives at 1 per 1000 impressions per session — they cannibalize CPM yield otherwise.",
+        "5. Lazy-load thresholds. Load anything below 200px viewport offset. Loading earlier wastes inventory; loading later kills viewability.",
+        "6. Header bidding timeout. 1500ms is the new sweet spot in 2026 — anything longer drops first-look fill.",
+        "7. Floor strategy. Static floors leave 8–15% on the table vs. dynamic floors tuned per geo, device and time-of-day.",
+        "8. Identity coverage. Aim for 70%+ identity match across your top three SSPs. Below 50% you're competing in lower-value pools.",
+        "9. Mobile vs. desktop split. Track separately. Mobile RPM should be 35–55% of desktop on display, higher on video.",
+        "10. Geo mix. Tier-1 vs. Tier-3 yield gaps below 4x signal a routing problem worth fixing.",
+        "11. Bot/IVT rate. Above 3% triggers demand filtering across your entire stack.",
+        "12. Data hygiene. Make sure every page tags traffic source, device class and content category cleanly. No tagging, no optimization."
+      ]
+    },
+    {
+      "slug": "global-traffic-strategy-tier1-tier3",
+      "title": "Designing a Global Traffic Strategy Across Tier-1 and Tier-3 Markets",
+      "excerpt": "Why a single playbook fails across markets — and how Pelxa partners structure regional content + monetization tracks.",
+      "category": "Strategy",
+      "author": "Pelxa Global",
+      "date": "2026-04-05",
+      "readMinutes": 8,
+      "cover": "/assets/social-cover.png",
+      "tags": ["global", "strategy", "traffic", "geo"],
+      "body": [
+        "Tier-1 audiences pay more per impression but cost more to acquire. Tier-3 audiences scale faster and produce volume — but only if monetization is designed for the region.",
+        "We segment partner inventory into market tiers and route demand accordingly. The same content can earn 3–8x different revenue depending on the routing logic — same audience, same impression, different outcome.",
+        "The biggest mistake we see: applying a Tier-1 ad density to Tier-3 traffic. Tier-3 users tolerate fewer interruptions per session before they bounce, so an aggressive Tier-1 layout actively destroys revenue in those markets.",
+        "Treat each market as its own product line — different creative pacing, different unit mix, different floor strategy. The brands that win globally are the ones that resist the temptation to globalize too early."
+      ]
+    },
+    {
+      "slug": "header-bidding-2026-guide",
+      "title": "Header Bidding in 2026: A Practical Guide for Publishers",
+      "excerpt": "Wrappers, timeouts, identity, AMP and Prebid 9 — what actually moved revenue this year.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-03-28",
+      "readMinutes": 11,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "header-bidding", "prebid", "ssp"],
+      "body": [
+        "Header bidding is now table stakes. The lift is no longer in turning it on — it's in tuning it correctly. Most publishers we audit have header bidding running, but only 30–40% have it tuned to within 5% of optimal yield.",
+        "Wrapper choice still matters. Prebid remains the de-facto open-source standard, and Prebid 9 finally consolidated the modules that mattered for performance. If you're below v8, the upgrade pays for itself in a quarter.",
+        "Timeout tuning is where most yield lives. Too tight and you lose first-look fill; too loose and you lose viewability. 1500ms is the new sweet spot for desktop in 2026, 1300ms for mobile. Test in 100ms increments and watch fill rate alongside RPM.",
+        "Identity is where the next leg of yield lives. Aim for 70%+ identity match across your top three SSPs. Without identity, you're forced into lower-value contextual pools, and the gap is widening every quarter.",
+        "Floors are the single biggest lever most publishers don't tune. Static floors leave 8–15% on the table vs. dynamic floors tuned per geo, device and time-of-day. If your floor strategy hasn't been touched in 6 months, that's where to start."
+      ]
+    },
+    {
+      "slug": "content-distribution-multi-platform",
+      "title": "Multi-Platform Content Distribution That Actually Compounds",
+      "excerpt": "A repeatable system for taking one idea and producing five platform-native variants that don't cannibalize each other.",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-03-20",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["content", "distribution", "social", "creators"],
+      "body": [
+        "Cross-posting is dead. The platforms detect it, the algorithms suppress it, and your audience tunes it out. What works in 2026 is platform-native variants — same idea, different shape, different hook for each surface.",
+        "Start with one core insight per week. Build a long-form anchor (article, podcast, or YouTube long-form). Then derive: a vertical short, a carousel, a thread, and a meta post about the insight itself. Five formats, one idea, five algorithms working for you.",
+        "The mistake most teams make: treating shorts as trailers for long-form. Shorts need their own complete payoff — they should land even if no one ever clicks through. Treat each variant as a complete asset, not a teaser.",
+        "Track per-surface performance with separate KPIs. A short that gets 10M views and zero clicks is still a win — it primes future surfaces. Don't kill a format because it doesn't drive immediate clicks.",
+        "Compounding kicks in around month three: the audience starts recognizing your style across platforms, and engagement on new posts ramps faster because trust is already established."
+      ]
+    },
+    {
+      "slug": "ecpm-vs-rpm-the-metric-that-matters",
+      "title": "eCPM vs. RPM: Which Metric Should You Actually Optimize?",
+      "excerpt": "A clean breakdown of when eCPM is misleading, when RPM is misleading, and the composite metric we use internally.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-03-12",
+      "readMinutes": 6,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "metrics", "ecpm", "rpm"],
+      "body": [
+        "eCPM is per-impression value. RPM is per-1000-pageviews. They tell completely different stories — and optimizing for one in isolation can quietly destroy the other.",
+        "Optimize eCPM and you might add ad density until viewability collapses. Optimize RPM and you might pile on units until user experience tanks and traffic dries up. Either path is a one-way ticket to short-term lift, long-term decay.",
+        "We track both, plus a composite metric we call effective revenue per session (ERS): RPM x sessions retained at 28 days. ERS forces the trade-off into the open — you can't game it by trashing user experience.",
+        "If your eCPM is rising but ERS is flat or declining, you're borrowing revenue from the future. If both are rising, you're doing real work. The number that matters is the composite, every time."
+      ]
+    },
+    {
+      "slug": "creator-monetization-stack-2026",
+      "title": "The Modern Creator Monetization Stack",
+      "excerpt": "Beyond AdSense: how creators in 2026 layer programmatic, affiliate, sponsorship and direct revenue into a single defensible stack.",
+      "category": "Monetization",
+      "author": "Pelxa Insights",
+      "date": "2026-03-04",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["monetization", "creators", "stack", "diversification"],
+      "body": [
+        "Single-source revenue is fragile. Every creator over $50K MRR we've worked with has at least three revenue layers — and the ones above $250K MRR have five.",
+        "Layer 1 — Programmatic. Display, video, native. Stable but capped. Treat it as the floor, not the ceiling.",
+        "Layer 2 — Affiliate. Recurring payouts on products you'd recommend anyway. The win here is selecting 3–5 partners and going deep, not chasing every link.",
+        "Layer 3 — Sponsorship. Direct brand deals. Higher CPM equivalents but operationally heavier. Set a minimum brand quality bar — bad sponsors hurt audience trust more than they earn.",
+        "Layer 4 — Direct. Memberships, paid newsletters, products. Lowest reach, highest margin. The hard part is finding the 1% of your audience willing to pay — but that 1% can outpay the other 99% combined.",
+        "Layer 5 — IP & licensing. Courses, templates, white-label content. Often overlooked. If your audience is professional, this is where the highest LTV lives.",
+        "The right stack mix depends on niche, audience size and time available. Generally: 40–60% programmatic, 15–25% affiliate, 10–20% sponsorship, 5–15% direct, 5% IP. Adjust as you scale."
+      ]
+    },
+    {
+      "slug": "first-party-data-publishers-guide",
+      "title": "First-Party Data for Publishers: A Practical Implementation Guide",
+      "excerpt": "Cookie deprecation is real. This is how mid-size publishers actually build a first-party data layer that lifts CPMs.",
+      "category": "Strategy",
+      "author": "Pelxa Global",
+      "date": "2026-02-24",
+      "readMinutes": 10,
+      "cover": "/assets/social-cover.png",
+      "tags": ["data", "first-party", "privacy", "cpm"],
+      "body": [
+        "Third-party cookies are functionally gone. The publishers winning in 2026 built first-party data layers two years ago — and they're collecting CPM premiums of 25–60% on identified traffic vs. anonymous.",
+        "Step 1 — Identity capture. Get a logged-in or registered relationship with at least 15% of your audience. Newsletter signups, comment accounts, save-for-later — anything that generates a hashed email.",
+        "Step 2 — Cohort building. Segment by content affinity, frequency and recency. You don't need 200 segments — start with 10 that map cleanly to advertiser categories.",
+        "Step 3 — Activation. Push cohorts to your SSPs via supported clean room or seller-defined audience integrations. Auction them as branded segments — branded segments fetch 2–4x the CPM of generic interest segments.",
+        "Step 4 — Measurement. Track lift per segment vs. anonymous baseline. If a segment isn't pricing 25%+ above baseline, it's not differentiated enough — refine the cohort definition.",
+        "The compounding effect is real: each additional 10% identity coverage tends to lift sitewide RPM by 4–7%, because anonymous demand also competes harder when the floor is set by branded auctions."
+      ]
+    },
+    {
+      "slug": "viewability-the-silent-revenue-killer",
+      "title": "Viewability: The Silent Revenue Killer Most Pages Ignore",
+      "excerpt": "Why 50% viewability is below the demand-curve cliff — and the four placement fixes that move it most.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-02-15",
+      "readMinutes": 6,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "viewability", "placements", "yield"],
+      "body": [
+        "Viewability under 50% triggers a step-function in demand pricing. Major DSPs simply down-bid below that threshold — sometimes by 40–60%. Move from 50% to 70% and CPMs often jump more than the viewability ratio alone would predict.",
+        "Fix 1 — Sticky placements at the natural pause point. Page mid-scroll, not page top. Mobile sticky bottom is the highest-viewability unit on most layouts.",
+        "Fix 2 — Lazy-load threshold. Most sites lazy-load too late. Set viewport offset to 200px so the unit renders just before it enters view, not after.",
+        "Fix 3 — Refresh discipline. Don't refresh units that aren't visible. Tie refresh to in-view + active-tab signals.",
+        "Fix 4 — Content density. Long, scannable paragraphs keep readers moving past more units. Short paragraphs broken by headings out-perform dense text on viewability.",
+        "Audit your bottom 20% of placements first — that's almost always where the worst viewability lives, and where the easiest fixes are hiding."
+      ]
+    },
+    {
+      "slug": "tiktok-traffic-monetization",
+      "title": "Monetizing TikTok Traffic Without Burning the Funnel",
+      "excerpt": "TikTok-sourced sessions are short, scroll-heavy and intent-poor. Here's the placement and content stack that still earns from them.",
+      "category": "Traffic",
+      "author": "Pelxa Insights",
+      "date": "2026-02-06",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["tiktok", "traffic", "social", "monetization"],
+      "body": [
+        "TikTok-sourced traffic averages 22 seconds on page and 1.4 pageviews per session. That's not a bug — it's the platform's gravity. The question is how to monetize that brief window without scaring it off entirely.",
+        "First lesson: forget pop-ups, interstitials and aggressive video pre-rolls. TikTok-sourced users bounce 4–6x faster than search traffic when interrupted. The juice isn't worth the squeeze.",
+        "What works: a high-contrast in-content native unit, placed at the 30–40% scroll mark. It catches the user mid-skim without breaking flow. Native units consistently out-RPM display on this segment by 1.8–2.4x.",
+        "Pair the placement with a content format optimized for skim-readers: short paragraphs, embedded video that auto-plays muted, and a one-line takeaway every 3–4 paragraphs. Time-on-page rises 30–50%, and that lift is what makes the rest of the stack viable.",
+        "If you can layer a newsletter capture above the 50% scroll mark — not below — you also recover 3–7% of the audience as identified traffic, which compounds across your whole monetization stack later."
+      ]
+    },
+    {
+      "slug": "publisher-video-strategy-2026",
+      "title": "The Publisher Video Strategy Playbook",
+      "excerpt": "Video CPMs are 4–8x display, but the operational cost is higher. When does outstream beat instream, and where does AI fit?",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-01-28",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["video", "content", "ads", "strategy"],
+      "body": [
+        "Video remains the highest-CPM ad format — 4–8x display in most categories. But the operational cost is real: production, hosting, transcoding, and player overhead. The question is which video strategy clears the cost.",
+        "Outstream is the entry point for most publishers. No content production cost, just placement of a vertical video unit between paragraphs. Yields 2–3x display CPM with near-zero operational lift.",
+        "Instream is where the real revenue lives — but only if you have native video content. Pre-roll on a 4-minute explainer earns 4–6x display. Mid-roll, properly placed, lifts another 30–50% on top of pre-roll alone.",
+        "AI-assisted video production hit a quality threshold in 2026 that makes it viable for explainer and recap formats. We've seen partners produce 5x their previous video volume at 1/3 the cost. Use it for explainer and recap; don't use it for original journalism or interview formats — quality drops noticeably and trust erodes.",
+        "Player choice matters more than people realize. Open-source players with header-bidding integration out-yield turnkey players by 15–30% because the demand stack is competitive. The trade-off is engineering time."
+      ]
+    }
+  ],
+  "vi": [
+    {
+      "slug": "playbook-monetization-traffic-social-2026",
+      "title": "Playbook Monetization Traffic Social 2026",
+      "excerpt": "Biến traffic social thành doanh thu ổn định. Khung 4 lớp Pelxa dùng để giúp partner tăng RPM 30–60% trong dưới 60 ngày.",
+      "category": "Monetization",
+      "author": "Pelxa Insights",
+      "date": "2026-04-22",
+      "readMinutes": 8,
+      "cover": "/assets/social-cover.png",
+      "tags": ["monetization", "social", "rpm", "playbook"],
+      "body": [
+        "Hầu hết social page mất doanh thu ở 3 điểm dễ đoán: cơ cấu nguồn traffic, độ khớp giữa content và funnel, và chất lượng vị trí quảng cáo. Khi sửa cả 3, RPM thường tăng hai chữ số trong 30 ngày — và mức tăng đó cộng dồn cho cả quý.",
+        "Mô hình của Pelxa chia funnel thành 4 lớp đo được: chất lượng traffic, phân loại intent, vị trí ad và trải nghiệm sau click. Mỗi lớp track riêng để biết chính xác doanh thu sinh ra hay lặng lẽ rơi rụng ở đâu.",
+        "Lớp 1 — chất lượng traffic. Soi 10 nguồn referrer hàng đầu và gắn tag intent: scroll thụ động, search chủ động, đọc sâu. Scroll thụ động convert kém hơn 3–5x so với traffic đọc sâu trên hầu hết unit. Nếu scroll thụ động chiếm hơn 60% inventory, hãy monetize khác đi — sticky và outstream vượt display rõ rệt.",
+        "Lớp 2 — phân loại intent. Tag mọi URL theo chủ đề, surface (feed, reels, shorts) và độ sâu nội dung. Bài giải thích 1.200 từ thu hút demand rất khác một reel 30 giây — và demand định giá khoảng cách đó rất gắt. Hầu hết partner để mất 15–25% doanh thu vì coi mọi pageview như nhau.",
+        "Lớp 3 — vị trí quảng cáo. Đòn bẩy lớn nhất 2026 là intent-aware placement. Khi unit khớp với khoảnh khắc nội dung của reader, partner thường ghi nhận eCPM tăng 22–48% mà không đổi creative. Đặt unit high-impact ở điểm dừng tự nhiên — không phải ở 25% đầu bài.",
+        "Lớp 4 — trải nghiệm sau click. Nếu tỷ lệ back button vượt 35%, placement đang ăn vào retention. Kiểm tra viewability và LCP hàng tuần; nhắm 60%+ viewability và LCP dưới 2,5s trên mobile.",
+        "Nếu bạn publish ở quy mô lớn, hãy bắt đầu bằng sprint instrumentation 14 ngày, sau đó iterate placement hàng tuần. Sự kỷ luật này tạo lợi nhuận cộng dồn — và mức tăng cũng vậy."
+      ]
+    },
+    {
+      "slug": "co-che-content-viral-cua-pelxa",
+      "title": "Bên trong Engine Content Viral của Pelxa",
+      "excerpt": "Cách Pelxa chấm điểm, phân loại và phân phối content để liên tục nằm trong nhóm high-traffic ở nhiều thị trường — và điều gì thay đổi cho 2026.",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-04-18",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["content", "viral", "ai", "distribution"],
+      "body": [
+        "Một cú hit viral hiếm khi tình cờ — đó là kết quả của vòng lặp chặt chẽ giữa tín hiệu, timing và độ khớp khán giả. Engine của chúng tôi coi mỗi nội dung là một thử nghiệm nhỏ có kết quả đo được.",
+        "Content được phân loại theo 4 trục: chủ đề, thị trường, surface (feed, reels, shorts) và band hiệu suất dự đoán. Partner chọn từ thư viện đã khớp sẵn với chân dung audience — nghĩa là ít post chết và tỷ lệ hit cao hơn rõ rệt.",
+        "Bản cập nhật 2026 thêm 2 tín hiệu: emotional valence và remix-ability. Content điểm cao cả 2 có xác suất vượt vào tier hiệu suất top 3,4x cao hơn trong 48 giờ đầu phân phối.",
+        "Chúng tôi cũng chuyển sang chấm freshness theo thị trường. Một meme đang fresh ở Indonesia có thể đã mệt ở Philippines — cùng ngôn ngữ, đường cong fatigue khác nhau. Partner giờ thấy điểm freshness phản ánh đúng địa lý audience của họ.",
+        "Hầu hết partner thấy hiệu suất post trung vị tăng 2–3x trong tháng đầu. Team double-down theo khuyến nghị của engine — thay vì override — thấy lift 4–6x ở tháng thứ ba."
+      ]
+    },
+    {
+      "slug": "checklist-toi-uu-rpm-quang-cao",
+      "title": "Checklist 12 điểm tối ưu RPM quảng cáo",
+      "excerpt": "Checklist đã chạy thực tế để audit placement, viewability và funnel hygiene trong dưới 30 phút.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-04-12",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "rpm", "ecpm", "optimization"],
+      "body": [
+        "Chạy list này theo quý. Đây là cùng audit team chúng tôi dùng cho tài khoản partner trước khi đề xuất bất kỳ thay đổi cấu trúc nào — và liên tục lộ ra 10–20% doanh thu đang ẩn trong các vấn đề có thể fix.",
+        "1. Viewability. Dưới 60% là vấn đề placement, không phải demand. Check theo từng unit, không lấy trung bình toàn site.",
+        "2. Refresh rule. Refresh dưới 30 giây trên inventory đang hiển thị bị buy-side filter. Đặt tối thiểu 30–35s, mobile dài hơn.",
+        "3. Tỷ lệ ad/content. Trên 30% trên mobile tương quan với bounce cao. Giữ placement đậm đặc trên fold; thưa hơn ở dưới.",
+        "4. Cap creative. Cap CPC creative ở 1 trên 1.000 impression mỗi session — không thì sẽ ăn lẫn yield CPM.",
+        "5. Threshold lazy-load. Load mọi thứ trong khoảng 200px viewport offset. Load sớm hơn lãng phí inventory; muộn hơn giết viewability.",
+        "6. Header bidding timeout. 1500ms là sweet spot mới của 2026 — dài hơn sẽ mất first-look fill.",
+        "7. Floor strategy. Floor tĩnh để mất 8–15% so với floor động được tune theo geo, device và time-of-day.",
+        "8. Identity coverage. Nhắm 70%+ identity match qua 3 SSP hàng đầu. Dưới 50% bạn đang cạnh tranh trong pool giá trị thấp.",
+        "9. Mobile vs. desktop. Track riêng. RPM mobile nên là 35–55% desktop trên display, cao hơn trên video.",
+        "10. Mix geo. Khoảng cách yield Tier-1 vs. Tier-3 dưới 4x báo hiệu vấn đề routing đáng fix.",
+        "11. Tỷ lệ bot/IVT. Trên 3% kích hoạt demand filter trên toàn stack.",
+        "12. Data hygiene. Đảm bảo mọi page tag nguồn traffic, loại thiết bị và phân loại content sạch. Không tag, không tối ưu."
+      ]
+    },
+    {
+      "slug": "chien-luoc-traffic-toan-cau-tier1-tier3",
+      "title": "Chiến lược traffic toàn cầu cho thị trường Tier-1 đến Tier-3",
+      "excerpt": "Vì sao một playbook không chạy được cho mọi thị trường — và cách partner Pelxa thiết kế track riêng theo vùng.",
+      "category": "Strategy",
+      "author": "Pelxa Global",
+      "date": "2026-04-05",
+      "readMinutes": 8,
+      "cover": "/assets/social-cover.png",
+      "tags": ["global", "strategy", "traffic", "geo"],
+      "body": [
+        "Audience Tier-1 trả nhiều tiền hơn cho mỗi impression nhưng chi phí acquisition cũng cao hơn. Audience Tier-3 scale nhanh và tạo volume — với điều kiện monetization được thiết kế cho vùng đó.",
+        "Chúng tôi phân khúc inventory partner theo tier thị trường và route demand tương ứng. Cùng một content có thể tạo ra doanh thu khác nhau 3–8x chỉ vì routing — cùng audience, cùng impression, kết quả khác nhau.",
+        "Sai lầm lớn nhất chúng tôi thấy: áp ad density Tier-1 lên traffic Tier-3. Người dùng Tier-3 chịu được ít gián đoạn hơn mỗi session trước khi bounce, nên layout Tier-1 đậm đặc thực sự phá hủy doanh thu ở các thị trường đó.",
+        "Hãy coi mỗi thị trường là một dòng sản phẩm riêng — pacing creative khác, mix unit khác, floor strategy khác. Các thương hiệu thắng toàn cầu là những thương hiệu chống lại được cám dỗ globalize quá sớm."
+      ]
+    },
+    {
+      "slug": "huong-dan-header-bidding-2026",
+      "title": "Header Bidding 2026: Hướng dẫn thực tế cho Publisher",
+      "excerpt": "Wrapper, timeout, identity, AMP và Prebid 9 — điều gì thực sự đẩy doanh thu trong năm nay.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-03-28",
+      "readMinutes": 11,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "header-bidding", "prebid", "ssp"],
+      "body": [
+        "Header bidding giờ là yêu cầu cơ bản. Lift không còn ở việc bật lên — mà ở việc tune đúng. Hầu hết publisher chúng tôi audit đã chạy header bidding, nhưng chỉ 30–40% tune đến mức trong 5% so với optimal yield.",
+        "Lựa chọn wrapper vẫn quan trọng. Prebid vẫn là chuẩn open-source de-facto, và Prebid 9 cuối cùng đã consolidate các module quan trọng cho hiệu suất. Nếu bạn dưới v8, upgrade tự thanh toán trong một quý.",
+        "Tune timeout là nơi đa phần yield ẩn. Quá chặt thì mất first-look fill; quá lỏng thì mất viewability. 1500ms là sweet spot mới cho desktop 2026, 1300ms cho mobile. Test theo bước 100ms và quan sát fill rate cùng RPM.",
+        "Identity là nơi phần yield tiếp theo nằm. Nhắm 70%+ identity match qua 3 SSP hàng đầu. Không có identity, bạn bị đẩy vào pool contextual giá trị thấp, và khoảng cách đó đang nới rộng mỗi quý.",
+        "Floor là đòn bẩy lớn nhất mà phần lớn publisher không tune. Floor tĩnh để mất 8–15% so với floor động tune theo geo, device và time-of-day. Nếu floor strategy của bạn không được động đến trong 6 tháng, đó là chỗ nên bắt đầu."
+      ]
+    },
+    {
+      "slug": "phan-phoi-content-da-nen-tang",
+      "title": "Phân phối content đa nền tảng thực sự cộng dồn",
+      "excerpt": "Hệ thống lặp được để biến một ý tưởng thành 5 biến thể native cho từng platform mà không cannibalize lẫn nhau.",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-03-20",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["content", "distribution", "social", "creators"],
+      "body": [
+        "Cross-post đã chết. Platform phát hiện ra, thuật toán đè xuống, và audience tune nó ra. Cái chạy được năm 2026 là biến thể native theo platform — cùng ý tưởng, hình dạng khác, hook khác cho mỗi surface.",
+        "Bắt đầu bằng một insight cốt lõi mỗi tuần. Build một anchor long-form (bài viết, podcast, hoặc YouTube long-form). Rồi derive: short dọc, carousel, thread, và một meta post về chính insight đó. Năm format, một ý tưởng, năm thuật toán cùng làm việc cho bạn.",
+        "Sai lầm phần lớn team mắc: coi shorts là trailer cho long-form. Shorts cần payoff hoàn chỉnh của riêng nó — chúng phải đứng được kể cả khi không ai click sang. Coi mỗi biến thể là asset hoàn chỉnh, không phải teaser.",
+        "Track hiệu suất từng surface với KPI riêng. Một short 10M view và 0 click vẫn là win — nó priming các surface tương lai. Đừng giết format vì nó không drive click ngay lập tức.",
+        "Hiệu ứng cộng dồn xuất hiện quanh tháng thứ ba: audience bắt đầu nhận ra style của bạn xuyên platform, và engagement post mới ramp nhanh hơn vì niềm tin đã có sẵn."
+      ]
+    },
+    {
+      "slug": "ecpm-vs-rpm-chi-so-quan-trong",
+      "title": "eCPM vs. RPM: Bạn nên thực sự tối ưu chỉ số nào?",
+      "excerpt": "Phân tích sạch về khi nào eCPM gây nhầm lẫn, khi nào RPM gây nhầm lẫn, và composite metric chúng tôi dùng nội bộ.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-03-12",
+      "readMinutes": 6,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "metrics", "ecpm", "rpm"],
+      "body": [
+        "eCPM là giá trị mỗi impression. RPM là giá trị mỗi 1.000 pageview. Chúng kể những câu chuyện hoàn toàn khác — và tối ưu một cái biệt lập có thể lặng lẽ phá hủy cái còn lại.",
+        "Tối ưu eCPM thì có thể bạn thêm ad density đến khi viewability sụp đổ. Tối ưu RPM thì có thể bạn chất unit đến khi UX banh và traffic cạn. Cả hai đường đều là vé một chiều cho lift ngắn hạn, decay dài hạn.",
+        "Chúng tôi track cả hai, cộng thêm composite metric gọi là effective revenue per session (ERS): RPM x số session retain ở 28 ngày. ERS đẩy trade-off ra ánh sáng — bạn không thể game nó bằng cách phá UX.",
+        "Nếu eCPM tăng nhưng ERS đi ngang hoặc giảm, bạn đang vay doanh thu từ tương lai. Nếu cả hai cùng tăng, bạn đang làm việc thật. Số quan trọng là composite, mọi lúc."
+      ]
+    },
+    {
+      "slug": "creator-monetization-stack-2026",
+      "title": "Stack monetization hiện đại của Creator",
+      "excerpt": "Vượt khỏi AdSense: cách creator năm 2026 layer programmatic, affiliate, sponsorship và doanh thu trực tiếp thành một stack có khả năng phòng thủ.",
+      "category": "Monetization",
+      "author": "Pelxa Insights",
+      "date": "2026-03-04",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["monetization", "creators", "stack", "diversification"],
+      "body": [
+        "Doanh thu một nguồn rất mong manh. Mọi creator trên 50K MRR chúng tôi từng làm việc đều có ít nhất 3 lớp doanh thu — và những người trên 250K MRR có 5.",
+        "Lớp 1 — Programmatic. Display, video, native. Ổn định nhưng có trần. Coi là sàn, không phải trần.",
+        "Lớp 2 — Affiliate. Payout định kỳ trên sản phẩm bạn vốn sẽ recommend. Win ở đây là chọn 3–5 partner và đào sâu, không phải chạy theo mọi link.",
+        "Lớp 3 — Sponsorship. Brand deal trực tiếp. CPM tương đương cao hơn nhưng vận hành nặng hơn. Đặt mức chất lượng brand tối thiểu — sponsor xấu hại trust audience nhiều hơn doanh thu nó tạo ra.",
+        "Lớp 4 — Trực tiếp. Membership, paid newsletter, sản phẩm. Reach thấp nhất, margin cao nhất. Phần khó là tìm 1% audience sẵn sàng trả — nhưng 1% đó có thể trả nhiều hơn 99% kia cộng lại.",
+        "Lớp 5 — IP & licensing. Khóa học, template, nội dung white-label. Thường bị bỏ qua. Nếu audience của bạn là chuyên nghiệp, đây là nơi LTV cao nhất sống.",
+        "Mix stack đúng phụ thuộc niche, kích cỡ audience và thời gian có sẵn. Thông thường: 40–60% programmatic, 15–25% affiliate, 10–20% sponsorship, 5–15% trực tiếp, 5% IP. Điều chỉnh khi scale."
+      ]
+    },
+    {
+      "slug": "first-party-data-cho-publisher",
+      "title": "First-Party Data cho Publisher: Hướng dẫn triển khai thực tế",
+      "excerpt": "Cookie deprecation là thật. Đây là cách publisher quy mô vừa thực sự xây lớp first-party data đẩy CPM lên.",
+      "category": "Strategy",
+      "author": "Pelxa Global",
+      "date": "2026-02-24",
+      "readMinutes": 10,
+      "cover": "/assets/social-cover.png",
+      "tags": ["data", "first-party", "privacy", "cpm"],
+      "body": [
+        "Cookie bên thứ ba về cơ bản đã hết. Các publisher thắng năm 2026 đã xây first-party data layer cách đây 2 năm — và họ đang thu CPM premium 25–60% trên traffic đã định danh so với ẩn danh.",
+        "Bước 1 — Capture identity. Có quan hệ logged-in hoặc registered với ít nhất 15% audience. Newsletter signup, account comment, save-for-later — bất cứ thứ gì sinh ra hashed email.",
+        "Bước 2 — Build cohort. Phân khúc theo affinity content, frequency và recency. Bạn không cần 200 segment — bắt đầu với 10 segment khớp sạch với category advertiser.",
+        "Bước 3 — Activation. Đẩy cohort sang SSP qua tích hợp clean room hoặc seller-defined audience được hỗ trợ. Đấu giá chúng như branded segment — branded segment fetch CPM cao hơn 2–4x so với generic interest segment.",
+        "Bước 4 — Đo lường. Track lift mỗi segment so với baseline ẩn danh. Nếu một segment không pricing 25%+ trên baseline, nó chưa đủ khác biệt — refine định nghĩa cohort.",
+        "Hiệu ứng cộng dồn là thật: mỗi 10% identity coverage tăng thêm thường lift RPM toàn site 4–7%, vì demand ẩn danh cũng cạnh tranh gắt hơn khi floor được set bởi đấu giá branded."
+      ]
+    },
+    {
+      "slug": "viewability-ke-giet-doanh-thu-tham-lang",
+      "title": "Viewability: Kẻ giết doanh thu thầm lặng mà phần lớn page bỏ qua",
+      "excerpt": "Vì sao 50% viewability nằm dưới mép vực đường demand — và 4 fix placement có tác dụng nhất.",
+      "category": "Ads",
+      "author": "Pelxa Ads Team",
+      "date": "2026-02-15",
+      "readMinutes": 6,
+      "cover": "/assets/social-cover.png",
+      "tags": ["ads", "viewability", "placements", "yield"],
+      "body": [
+        "Viewability dưới 50% kích hoạt step-function trong định giá demand. DSP lớn down-bid dưới ngưỡng đó — đôi khi 40–60%. Đi từ 50% lên 70% thường nhảy CPM nhiều hơn cả tỷ lệ viewability tăng đơn thuần.",
+        "Fix 1 — Sticky placement ở điểm dừng tự nhiên. Mid-scroll, không phải đầu trang. Mobile sticky bottom là unit viewability cao nhất trên hầu hết layout.",
+        "Fix 2 — Threshold lazy-load. Nhiều site lazy-load quá muộn. Đặt viewport offset 200px để unit render ngay trước khi vào view, không phải sau.",
+        "Fix 3 — Kỷ luật refresh. Đừng refresh unit không hiển thị. Gắn refresh với tín hiệu in-view + active-tab.",
+        "Fix 4 — Mật độ content. Đoạn dài, dễ scan giữ reader đi qua nhiều unit hơn. Đoạn ngắn ngắt bởi heading vượt text dày đặc về viewability.",
+        "Audit 20% placement cuối trước — đó hầu như luôn là nơi viewability tệ nhất sống, và là nơi fix dễ nhất ẩn nấp."
+      ]
+    },
+    {
+      "slug": "monetize-traffic-tiktok",
+      "title": "Monetize traffic TikTok mà không đốt funnel",
+      "excerpt": "Session từ TikTok ngắn, scroll nhiều, intent thấp. Đây là stack placement và content vẫn kiếm được tiền từ chúng.",
+      "category": "Traffic",
+      "author": "Pelxa Insights",
+      "date": "2026-02-06",
+      "readMinutes": 7,
+      "cover": "/assets/social-cover.png",
+      "tags": ["tiktok", "traffic", "social", "monetization"],
+      "body": [
+        "Traffic từ TikTok trung bình 22 giây trên page và 1,4 pageview mỗi session. Đó không phải bug — đó là trọng lực của platform. Câu hỏi là làm sao monetize cửa sổ ngắn ấy mà không đuổi nó đi.",
+        "Bài học đầu: quên pop-up, interstitial và video pre-roll đậm. User từ TikTok bounce nhanh hơn 4–6x so với traffic search khi bị gián đoạn. Lợi không bù tổn.",
+        "Cái chạy được: native unit in-content tương phản cao, đặt ở mốc 30–40% scroll. Nó bắt được user giữa skim mà không phá flow. Native unit liên tục vượt RPM display trên segment này 1,8–2,4x.",
+        "Ghép placement với format content tối ưu cho skim-reader: đoạn ngắn, video nhúng auto-play muted, và một dòng takeaway mỗi 3–4 đoạn. Time-on-page tăng 30–50%, và lift đó là cái khiến phần còn lại của stack khả thi.",
+        "Nếu bạn layer được newsletter capture phía trên mốc 50% scroll — không phải dưới — bạn còn recover 3–7% audience thành traffic định danh, cộng dồn cho cả stack monetization sau này."
+      ]
+    },
+    {
+      "slug": "chien-luoc-video-cua-publisher-2026",
+      "title": "Playbook chiến lược Video cho Publisher",
+      "excerpt": "CPM video là 4–8x display, nhưng chi phí vận hành cao hơn. Khi nào outstream thắng instream, và AI nằm ở đâu?",
+      "category": "Content",
+      "author": "Pelxa Content Lab",
+      "date": "2026-01-28",
+      "readMinutes": 9,
+      "cover": "/assets/social-cover.png",
+      "tags": ["video", "content", "ads", "strategy"],
+      "body": [
+        "Video vẫn là format ad CPM cao nhất — 4–8x display ở phần lớn category. Nhưng chi phí vận hành là thật: sản xuất, hosting, transcoding và overhead player. Câu hỏi là chiến lược video nào bù được chi phí.",
+        "Outstream là điểm vào cho phần lớn publisher. Không tốn chi phí sản xuất content, chỉ đặt unit video dọc giữa các đoạn. Yield 2–3x CPM display với gần như không công vận hành.",
+        "Instream là nơi doanh thu thật sống — nhưng chỉ khi bạn có content video native. Pre-roll trên explainer 4 phút kiếm 4–6x display. Mid-roll, đặt đúng, lift thêm 30–50% trên pre-roll một mình.",
+        "Sản xuất video có AI hỗ trợ chạm ngưỡng chất lượng năm 2026 khả thi cho format explainer và recap. Chúng tôi thấy partner sản xuất 5x volume video trước đây với 1/3 chi phí. Dùng cho explainer và recap; đừng dùng cho báo chí gốc hay format phỏng vấn — chất lượng tụt thấy rõ và niềm tin hao mòn.",
+        "Lựa chọn player quan trọng hơn người ta nghĩ. Player open-source có tích hợp header-bidding vượt yield player turnkey 15–30% vì stack demand cạnh tranh. Trade-off là thời gian engineering."
+      ]
+    }
+  ]
+}
